@@ -110,3 +110,92 @@ body {
   from { transform: translateY(30px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
 }
+
+/* Responsiv dizayn üçün media querylər */
+@media (max-width: 1200px) {
+  .logo {
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+  }
+
+  .motivasiya-text {
+    font-size: 20px;
+    padding: 16px 25px;
+  }
+
+  .start-btn {
+    font-size: 17px;
+    padding: 10px 22px;
+  }
+}
+
+@media (max-width: 992px) {
+  .logo {
+    width: 220px;
+    height: 220px;
+    padding: 18px;
+  }
+
+  .motivasiya-text {
+    font-size: 18px;
+    padding: 14px 20px;
+  }
+
+  .footer-text {
+    font-size: 16px;
+  }
+
+  .start-btn {
+    font-size: 16px;
+    padding: 9px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 180px;
+    height: 180px;
+    padding: 15px;
+  }
+
+  .motivasiya-text {
+    font-size: 17px;
+    padding: 12px 18px;
+  }
+
+  .footer-text {
+    font-size: 15px;
+  }
+
+  .start-btn {
+    font-size: 15px;
+    padding: 8px 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 10px;
+  }
+
+  .logo {
+    width: 140px;
+    height: 140px;
+    padding: 12px;
+  }
+
+  .motivasiya-text {
+    font-size: 16px;
+    padding: 10px 14px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+  }
+
+  .start-btn {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}
